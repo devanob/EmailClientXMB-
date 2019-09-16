@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+django-rest = "*"
+django-channels = "*"
+djangorestframework = "*"
+pillow = "*"
+django-cors-headers = "*"
+channels-rabbitmq = "*"
+essential-generators = "*"
+uritemplate = "*"
+openapi-core = "*"
+django-extensions = "*"
+
+[requires]
+python_version = "3.7"
